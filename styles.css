@@ -1,0 +1,36 @@
+body{
+    margin:0% 25%;
+    /* background: rgb(2,0,36); */
+    /* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(48,9,121,1) 65%, rgba(106,0,255,1) 100%); */
+    background: white;
+}
+form{
+    box-sizing: border-box; 
+    font-size: 20px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    /* border: dashed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ul li{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    /* border: dashed red; */
+    list-style-type: none;
+    margin-top: 3%;
+    
+}
+li input, li textarea{
+    /* border: dashed blue; */
+    margin-top: 2%;
+    font-size: 2em;
+    color: black;
+    background: white;   
+    /* background:radial-gradient(circle, rgba(2,0,36,1) 50%, rgba(48,9,121,1) 100%); */
+}
